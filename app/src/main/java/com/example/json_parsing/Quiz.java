@@ -1,6 +1,10 @@
 package com.example.json_parsing;
 
+import com.google.gson.annotations.Expose;
+
 public class Quiz {
+
+    @Expose(serialize = true)
     private String subjname;
     private Question q1;
 
